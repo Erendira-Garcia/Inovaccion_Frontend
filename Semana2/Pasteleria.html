@@ -1,0 +1,48 @@
+
+
+    <h2>PASTELES</h2>
+    <label for="pasteles">Elija el pastel de nuestra preferencia</label>
+    <select id="pasteles" name="pasteles">
+        <option value="chocolate">Chocolate $200</option>
+        <option value="tresleches">Tres leches $150</option>
+        <option value="redvelvet">Red Velvet $250</option>
+        <option value="cafe">Café $180</option>
+    </select>
+
+    <h2>ADORNOS Y PRECIOS</h2><br>
+    <input type="checkbox" id="topping1" name="topping1" value="laminaschocolate">
+    <label for="topping1">Laminas de Chocolate $150</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="rosasbetun">
+    <label for="topping2">Rosas de Betún $250</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="frutosrojos">
+    <label for="topping3">Frutos Rojos $300</label><br><br>
+    
+    <h2>SABORES</h2><br>
+    <input type="checkbox" id="topping1" name="topping1" value="Vainilla">
+    <label for="topping1">Vainilla</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="Fresa">
+    <label for="topping2">Fresa</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Chocolate">
+    <label for="topping3">Chocolate</label><br><br>
+
+    
+    <h2>PEDIDO</h2>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="apellido">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono" form="form1"><br><br>
+        <label for="apellido">Correo:</label>
+        <input type="text" id="mail" name="mail" form="form1"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+
+    <footer>
+        <p>Dirección: Avenida Lalita #45 </p>
+        <p> Teléfono: 45-12-512 </p>
+        <p> Horarios de atención: Lunes a domingo  de 10:00 a 18:00 </p>  
+    </footer>
+        
+</body>
+</html>
