@@ -1,0 +1,66 @@
+body {background-color: white;}
+
+
+
+#navegador{
+   
+    margin : 25px 0px 10px 100px; 
+    color: #e8f5ff;
+    background-color: #0526e5;
+    border: 1px solid #ccc;
+    text-decoration: #e8f5ff;
+}
+
+li {
+    display: inline;
+    color: #e8f5ff;
+    font-family: monospace, bold;
+}
+
+#opciones1 {
+    border: 1px dotted #7b99eb;
+    background: #7b99eb;
+
+}
+
+button{
+    color:blue
+}
+
+
+h1{
+    color: #1027ad;
+} 
+
+h2{
+    color: #1a5a85;  
+}
+
+h3{
+    color: #b7ddff;
+}
+
+p {
+    font-size:160%;
+    color: #002945;
+}
+
+#encabezado {
+    overflow-y: auto;
+    background: #d9e4ff;
+    width: auto;
+}
+
+.imagen{
+    float: right;
+    height: 400px;
+    width: 500px;
+    }
+
+#panel_bajo{
+    border: 1px dotted blue;
+}
+
+footer{
+    background-color: #18243d;
+}
